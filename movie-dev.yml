@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://127.0.0.1:8888/eureka
-#    registry-fetch-interval-seconds: 5
+    registry-fetch-interval-seconds: 5
   instance:
     prefer-ip-address: true
 
@@ -20,7 +20,7 @@ eureka:
 
 feign:
   hystrix:
-    enable: true
+    enabled: true
 #management:
 #  endpoints:
 #    web:
